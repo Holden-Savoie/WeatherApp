@@ -1,0 +1,66 @@
+body {
+    background-color: #eeedec;
+}
+
+h1,
+label {
+    font-family: sans-serif;
+    text-align : center;
+    color      : gray;
+}
+
+form {
+    max-width      : 400px;
+    margin         : 0 auto;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+input {
+    width        : 100%;
+    padding      : 10px 0;
+    margin-top   : 10px;
+    border-radius: 5px;
+    border       : 1px solid gray;
+}
+
+.details-cont {
+    width         : 400px;
+    margin        : 0 auto;
+    text-align    : center;
+    font-family   : sans-serif;
+    color         : gray;
+    text-transform: uppercase;
+}
+
+.temp-text {
+    font-size : 40px;
+    margin-top: 25px;
+}
+
+.details-visual {
+    height          : 400px;
+    width           : 100%;
+    background-color: lightgray;
+    margin-top      : 20px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+.details-visual img {
+    width: 400px;
+}
+
+.details-text {
+    width           : 100%;
+    background-color: white;
+    padding         : 40px 0;
+}
+
+.details-text h5 {
+    margin       : 0;
+    margin-bottom: 15px;
+}
